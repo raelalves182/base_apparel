@@ -1,0 +1,28 @@
+.container {
+  max-width: 1440px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card {
+  max-width: 960px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

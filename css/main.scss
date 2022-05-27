@@ -1,0 +1,25 @@
+.container {
+  max-width: 1440px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card {
+  max-width: 960px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.attribution { 
+  font-size: 20px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
