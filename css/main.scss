@@ -107,3 +107,33 @@
     color: hsl(228, 45%, 44%); 
   }
 }
+
+@media screen and (max-width: 767px) {
+  .content .card {
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0;
+  }
+
+  .content .card .image {
+    max-width: 100%;
+    object-fit: fill;
+    height: 300px;
+    border-radius: 0;
+    position: absolute;
+    top: 80px;
+  }
+
+  .content .card__item h1, p {
+    text-align: center;
+    margin-top: 360px;
+  }
+
+  .content .card__item h1 {
+    font-size: 30px;
+  }
+
+  .content .card__item .logo {
+    margin-top: -50px;
+  }
+}
