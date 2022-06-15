@@ -164,7 +164,11 @@
     font-size: 30px;
   }
   .content .card__item .logo {
-    margin-top: -50px;
+    margin-top: -45px;
+    margin-left: -40;
+  }
+  .content .card__item .logo img {
+    width: 50%;
   }
   .content .card__item .card__item--box input {
     padding-left: 14px;
