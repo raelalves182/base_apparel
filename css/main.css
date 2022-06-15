@@ -78,6 +78,7 @@
   background: transparent;
   padding-left: 30px;
   color: #ce9797;
+  width: 100%;
 }
 
 .content .card__item .card__item--box .button {
